@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Raquel Reis, estudante de Ciências da Computação com foco em Desenvolvimento Web. Conheça meus estudos e projetos."
+    >
+
+    <title>Raquel Reis | Portfólio de Desenvolvimento Web</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a href="#inicio" class="logo">&lt;Raquel Reis /&gt;</a>
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="menu"
+        >
+            ☰
+        </button>
+
+        <nav class="menu" id="menu">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- APRESENTAÇÃO -->
+        <section class="inicio" id="inicio">
+            <div class="conteudo-inicio">
+
+                <p class="destaque">
+                    CIÊNCIAS DA COMPUTAÇÃO | DESENVOLVIMENTO WEB
+                </p>
+
+                <h1>
+                    Olá, eu sou<br>
+                    <span>Raquel Reis.</span>
+                </h1>
+
+                <h2 class="subtitulo">
+                    Estudante de Ciências da Computação
+                </h2>
+
+                <p class="descricao">
+                    Estou construindo minha trajetória na tecnologia,
+                    aprendendo a desenvolver páginas web, explorar a
+                    programação e transformar conhecimentos em projetos
+                    práticos. Este portfólio registra minha evolução
+                    e meus próximos passos na área.
+                </p>
+
+                <div class="botoes">
+                    <a href="#projetos" class="botao principal">
+                        Conheça meus projetos
+                    </a>
+
+                    <a href="#sobre" class="botao secundario">
+                        Sobre mim
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="cartao-codigo">
+                <div class="janela">
+                    <span class="bolinha roxa"></span>
+                    <span class="bolinha rosa"></span>
+                    <span class="bolinha azul"></span>
+                    <span class="nome-arquivo">raquel.js</span>
+                </div>
+
+                <pre><code><span class="codigo-roxo">const</span> raquel = {
+  formacao: <span class="codigo-verde">"Ciências da Computação"</span>,
+  foco: <span class="codigo-verde">"Desenvolvimento Web"</span>,
+  estudando: [
+    <span class="codigo-verde">"HTML"</span>,
+    <span class="codigo-verde">"CSS"</span>,
+    <span class="codigo-verde">"JavaScript"</span>,
+    <span class="codigo-verde">"PHP"</span>
+  ],
+  objetivo: <span class="codigo-verde">"Evoluir na tecnologia"</span>
+};</code></pre>
+            </div>
+        </section>
+
+        <!-- SOBRE MIM -->
+        <section class="secao" id="sobre">
+            <p class="etiqueta">CONHEÇA MINHA TRAJETÓRIA</p>
+            <h2>Sobre <span>mim</span></h2>
+
+            <p class="texto-secao">
+                Sou estudante de Ciências da Computação e estou
+                desenvolvendo meus conhecimentos em Desenvolvimento Web.
+                Durante meus estudos, pratico a criação de páginas com
+                HTML, a estilização com CSS, a programação com JavaScript
+                e os primeiros conceitos de PHP no lado do servidor.
+
+                <br><br>
+
+                Criei este portfólio para organizar meus aprendizados,
+                apresentar meus projetos acadêmicos e compartilhar minha
+                evolução. Quero continuar aprendendo, desenvolver soluções
+                úteis e me preparar para diferentes oportunidades na área
+                de tecnologia.
+            </p>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section class="secao" id="habilidades">
+            <p class="etiqueta">CONHECIMENTOS EM DESENVOLVIMENTO</p>
+            <h2>Tecnologias que estou <span>estudando</span></h2>
+
+            <div class="grade-habilidades">
+
+                <article class="habilidade">
+                    <div class="icone html-icone">5</div>
+                    <h3>HTML</h3>
+                    <p>
+                        Estruturação de páginas, elementos,
+                        formulários e organização do conteúdo.
+                    </p>
+                    <span class="nivel">Em aprendizagem</span>
+                </article>
+
+                <article class="habilidade">
+                    <div class="icone css-icone">#</div>
+                    <h3>CSS</h3>
+                    <p>
+                        Cores, espaçamentos, layouts, estilos
+                        e design responsivo.
+                    </p>
+                    <span class="nivel">Em aprendizagem</span>
+                </article>
+
+                <article class="habilidade">
+                    <div class="icone js-icone">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>
+                        Variáveis, estruturas de decisão,
+                        repetição e interatividade.
+                    </p>
+                    <span class="nivel">Em aprendizagem</span>
+                </article>
+
+                <article class="habilidade">
+                    <div class="icone php-icone">PHP</div>
+                    <h3>PHP</h3>
+                    <p>
+                        Primeiros passos com processamento
+                        de dados no servidor.
+                    </p>
+                    <span class="nivel">Em aprendizagem</span>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="secao" id="projetos">
+            <p class="etiqueta">PRÁTICA E EVOLUÇÃO</p>
+            <h2>Meus <span>projetos</span></h2>
+
+            <p class="texto-secao introducao-projetos">
+                Projetos e exercícios que fazem parte da minha
+                jornada de aprendizagem em Desenvolvimento Web.
+            </p>
+
+            <div class="grade-projetos">
+
+                <article class="projeto">
+                    <p class="numero-projeto">PROJETO 01</p>
+                    <h3>Cadastro de estudantes</h3>
+
+                    <p>
+                     Projeto acadêmico desenvolvido para praticar a criação de formulários HTML,a 
+                     estilização com Css e o processamento de informações utilizando PHP.
+                    </p>
+
+                    <h4> O que estou praticando</h4>
+
+                    <ul class="lista-projeto">
+                        <li>estruturação de formulários com HTML.</li>
+                        <li> Organização visual com Css.</li>
+                        <li>Recebimento e processamento de dados com PHP.</li>
+                    </ul>
+
+                    <div class="etiquetas">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                    </div>
+
+                    <span class="status">
+                        Projeto acadêmico
+                    </span>
+                </article>
+
+                <article class="projeto">
+                    <p class="numero-projeto">PROJETO 02</p>
+                    <h3>Práticas de JavaScript</h3>
+
+                    <p>
+                        Exercícios  acad~emicos desenvolvidos para praticar a lógica
+                        de programação e tornar as páginas web mais interativas.
+                    </p>
+
+                    <h4> O que estou praticando</h4>
+
+                    <ul class="lista-projeto">
+                        <li>Declaração de variáveis com let e  const.</li>
+                        <li> Estrutura de decisão com if else.</li>
+                        <li>Estrutura de repetição com for e while.</li>
+                        <li>Manipulação de elementos HTML com JavaScript.</li>
+                    </ul>
+
+                    <div class="etiquetas">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <span class="status">
+                        Projeto acadêmico
+                    </span>
+                </article>
+
+                <article class="projeto">
+                    <p class="numero-projeto">PROJETO 03</p>
+                    <h3>Meu portfólio pessoal</h3>
+
+                    <p>
+                        Site desenvolvido para apresentar minha trajetória acadêmica,
+                        minhas habilidades em desenvolvimento web e meus projetos de 
+                        aprendizagem.
+                        
+                    </p>
+
+                    <h4>O que estou praticando</h4>
+
+                    <ul class="lista-projeto">
+                        <li>Organização do conteúdo com HTML.</li>
+                        <li>Criação de um visual moderno com CSS.</li>
+                        <li>Adaptação da página para diferentes telas.</li>
+                        <li>Interatividade com JavaScript.</li>
+                    </ul>
+
+                    <div class="etiquetas">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <span class="status">
+                        Em desenvolvimento
+                    </span>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="secao contato" id="contato">
+          <div class="container">
+
+            <p class="destaque">CONTATO</p>
+
+            <h2>Vamos construir novas <span>possibilidades?</span></h2>
+
+            <p class="texto-secao">
+              Estou estudando Ciências da Computação e me desenvolvendo na área de desenvolvimento web.
+              Quero continuar  aprendendo, desenvolver projetos práticos e conquistar uma 
+              oportunidade de estágio.
+            </p>
+
+            <p class="contato-observacao" >
+                Em breve,adicionarei meus links profissionais para facilitar
+                o contato.
+            </p>
+          </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>
+            &copy; <span id="ano"></span> Raquel Reis.
+            Portfólio acadêmico de Desenvolvimento Web.
+        </p>
+    </footer>
+
+</body>
+</html>
