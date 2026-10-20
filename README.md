@@ -27,7 +27,7 @@ Site criado para apresentar minhas habilidades e projetos de aprendizagem.
 
 ## Acesse meu portfólio
 
-[Visitar o portfólio online](https://programacao-long.github.io/portfolio-raquel-reis/)
+[Visitar o portfólio online](https://programacao-long.github.io/portifolio-raquel-reis/)
 
 ## Objetivo
 
